@@ -5,12 +5,10 @@
 
 ## PROXIES
 
-**Broccoli direct** (unblocked)
-    https://justa5thgrader.github.io/broccoliwebfull/
+[**Broccoli direct**](https://justa5thgrader.github.io/broccoliwebfull/) (unblocked)
 
 
-**Adenny** (blocked)
-    https://00.adenny.net
+[**Adenny**](https://00.adenny.net) (blocked)
 
 
 **Rammerhead alt** (blocked)
