@@ -11,20 +11,17 @@
 [**Adenny**](https://00.adenny.net) (blocked)
 
 
-**Rammerhead alt** (blocked)
-    https://www.classroom.google.com.l5.ca/
+[**Rammerhead alt**](https://www.classroom.google.com.l5.ca/) (blocked)
 
 
 
 ## GAME BROWSERS
 
-**Yandex Games** (unblocked)
-    https://yandex.com/games/
+[**Yandex Games**](https://yandex.com/games/) (unblocked)
 
 
 
 
 ## ALTERNATIVES
 
-**Gimkit**
-    https://Gimkit.com
+[**Gimkit**](https://Gimkit.com)
