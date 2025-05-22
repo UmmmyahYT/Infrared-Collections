@@ -1,7 +1,7 @@
 .grow-in {
   transition: transform 0.3s ease;
 }
-a:hover grow-in {
+grow-in:hover {
   transform: scale(1.1);
 }
 
