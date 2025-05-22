@@ -1,10 +1,3 @@
-.grow-in {
-  transition: transform 0.3s ease;
-}
-grow-in:hover {
-  transform: scale(1.1);
-}
-
 
 .animate-title {
   opacity: 0;
@@ -27,6 +20,7 @@ grow-in:hover {
   opacity: 0;
   transform: scale(0.7);
   animation: growIn 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+  transition: transform 0.3s ease; /* Enables smooth hover scaling */
 }
 
 @keyframes growIn {
@@ -36,4 +30,9 @@ grow-in:hover {
   }
 }
 
+/* Hover effect: grows image further when hovered */
+a:hover .grow-in,
+.grow-in:hover {
+  transform: scale(1.12); /* Slightly larger than the final entrance size */
+}
 
