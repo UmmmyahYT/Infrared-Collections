@@ -1,9 +1,9 @@
-
+/* === GROW-IN IMAGE ANIMATION === */
 .grow-in {
   opacity: 0;
   transform: scale(0.7);
   animation: growIn 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
-  transition: transform 0.3s ease; /* Enables smooth hover scaling */
+  transition: transform 0.3s ease;
 }
 
 @keyframes growIn {
@@ -13,19 +13,18 @@
   }
 }
 
-/* Hover effect: grows image further when hovered */
-a:hover .grow-in,
+/* Hover effect for image links */
 .grow-in:hover {
-  transform: scale(1.12); /* Slightly larger than the final entrance size */
+  transform: scale(1.12);
+}
+
+/* Optional: Support for images wrapped in <a> */
+a .grow-in:hover {
+  transform: scale(1.12);
 }
 
 
-
-
-
-
-
-
+/* === TYPEWRITER TEXT EFFECT === */
 .typewriter {
   overflow: hidden;
   border-right: .15em solid #333;
@@ -44,5 +43,4 @@ a:hover .grow-in,
   from, to { border-color: transparent }
   50% { border-color: #333 }
 }
-
 
