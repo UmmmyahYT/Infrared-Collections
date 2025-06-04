@@ -4,28 +4,90 @@
   <meta charset="UTF-8">
   <title>Infrared Games</title>
   <link rel="icon" type="image/x-icon" href="favicon.png">
-  <link rel="stylesheet" type="text/css" href="style.css"> <!-- external stylesheet (optional) -->
   <style>
-    /* Page background */
+    /* General reset and background */
     body {
       margin: 0;
-      height: 100vh;
       background: linear-gradient(to bottom, #000000, #c40000);
       font-family: Arial, sans-serif;
       color: white;
     }
 
-    /* Header section */
-    header, nav {
+    /* Header / Title bar */
+    nav {
       background-color: #000000;
       color: white;
       padding: 20px;
       text-align: center;
     }
 
-    /* Image Flexbox Grid */
+    /* Flex container for image items */
     .image-list {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
       gap: 20px;
-      list-style: n
+      list-style: none;
+      padding: 40px 20px;
+      margin: 0;
+    }
+
+    .image-list li {
+      flex: 0 1 auto;
+    }
+
+    /* Image grow effect on hover */
+    .grow-in {
+      border-radius: 15px;
+      width: 250px;
+      height: 250px;
+      transition: transform 0.3s ease;
+      display: block;
+    }
+
+    .grow-in:hover {
+      transform: scale(1.12);
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1 class="site-title">Infrared Games</h1>
+  </nav>
+
+  <ul class="image-list">
+    <li>
+      <a href="ragdollarchers.html">
+        <img src="ragdollarchersicon.png" alt="Ragdoll Archers" class="grow-in">
+      </a>
+    </li>
+    <li>
+      <a href="ElementalMerge.html">
+        <img src="elementalmergeicon.png" alt="Elemental Merge" class="grow-in">
+      </a>
+    </li>
+    <li>
+      <a href="basketrandom.html">
+        <img src="basketrandomicon.png" alt="Basket Random" class="grow-in">
+      </a>
+    </li>
+    <li>
+      <a href="soccerrandom.html">
+        <img src="soccerrandomicon.png" alt="Soccer Random" class="grow-in">
+      </a>
+    </li>
+    <li>
+      <a href="volleyrandom.html">
+        <img src="volleyrandomicon.png" alt="Volley Random" class="grow-in">
+      </a>
+    </li>
+    <li>
+      <a href="ovo.html">
+        <img src="ovoicon.png" alt="OVO" class="grow-in">
+      </a>
+    </li>
+  </ul>
+
+</body>
+</html>
