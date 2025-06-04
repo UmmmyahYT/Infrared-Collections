@@ -38,6 +38,20 @@ nav ul li a {
 
 
 
+/* Hover effect for image links */
+.grow-in:hover {
+  transform: scale(1.12);
+}
+
+/* Optional: Support for images wrapped in <a> */
+a .grow-in:hover {
+  transform: scale(1.12);
+}
+
+
+
+
+
 /* === GROW-IN IMAGE ANIMATION === */
 .grow-in {
   opacity: 0;
@@ -53,15 +67,7 @@ nav ul li a {
   }
 }
 
-/* Hover effect for image links */
-.grow-in:hover {
-  transform: scale(1.12);
-}
 
-/* Optional: Support for images wrapped in <a> */
-a .grow-in:hover {
-  transform: scale(1.12);
-}
 
 
 /* === TYPEWRITER TEXT EFFECT === */
