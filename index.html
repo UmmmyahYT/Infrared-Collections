@@ -2,75 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Infrared games</title>
+  <title>Infrared Games</title>
   <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="stylesheet" type="text/css" href="style.css"> <!-- external stylesheet (optional) -->
   <style>
     /* Page background */
-body {
+    body {
       margin: 0;
       height: 100vh;
-      background: linear-gradient(to bottom, #000000, #c40000); /* Light blue to dark blue */
+      background: linear-gradient(to bottom, #000000, #c40000);
       font-family: Arial, sans-serif;
       color: white;
-      justify-content: center;
-  }
+    }
 
     /* Header section */
-    header {
-      background-color: #000000;  /* dark gray */
+    header, nav {
+      background-color: #000000;
       color: white;
       padding: 20px;
       text-align: center;
     }
 
-    /* Main content section */
-    .content {
-      padding: 20px;
-    }
-  </style>
-</head>
-<body>
-
-<head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<nav>
-  <h1 class="site-title">Infrared Games</h1>
-</nav>
-  
-<ul class="image-list">
-  <li>
-    <a href="ragdollarchers.html">
-      <img src="ragdollarchersicon.png" alt="Ragdoll Archers" class="grow-in" style="border-radius: 15px;" width="250" height="250">
-    </a>
-  </li>
-  <li>
-    <a href="ElementalMerge.html">
-      <img src="elementalmergeicon.png" alt="Elemental Merge" class="grow-in" style="border-radius: 15px;" width="250" height="250">
-    </a>
-  </li>
-  <li>
-    <a href="basketrandom.html">
-      <img src="basketrandomicon.png" alt="Basket Random" class="grow-in" style="border-radius: 15px;" width="250" height="250">
-    </a>
-  </li>
-  <li>
-    <a href="soccerrandom.html">
-      <img src="soccerrandomicon.png" alt="Soccer Random" class="grow-in" style="border-radius: 15px;" width="250" height="250">
-    </a>
-  </li>
-  <li>
-    <a href="volleyrandom.html">
-      <img src="volleyrandomicon.png" alt="Volley Random" class="grow-in" style="border-radius: 15px;" width="250" height="250">
-    </a>
-  </li>
-  <li>
-    <a href="ovo.html">
-      <img src="ovoicon.png" alt="OVO" class="grow-in" style="border-radius: 15px;" width="250" height="250">
-    </a>
-  </li>
-</ul>
-
-
-
+    /* Image Flexbox Grid */
+    .image-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      list-style: n
